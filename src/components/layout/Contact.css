@@ -1,0 +1,104 @@
+.Contact {
+  margin-top: 9.375rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #d7d4ff;
+}
+
+.Contact h1 {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2a2a2a;
+
+  margin-top: 5.3125rem;
+  margin-bottom: 3.75rem;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+  justify-content: center;
+}
+
+.Inputs input,
+textarea {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #555555;
+
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 1.375rem 1rem 1.375rem 1rem;
+  margin-bottom: 1rem;
+
+  resize: none;
+}
+
+.Inputs textarea.MessageText {
+  padding-bottom: 7.625rem;
+}
+
+.Inputs input[type='submit'] {
+  margin-top: 1rem;
+  padding-bottom: 0.8125rem;
+  padding-top: 0.8125rem;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #6c63ff;
+
+  transition: 0.25s;
+}
+
+.Inputs input[type='submit']:hover {
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.25s;
+}
+
+.Inputs input::placeholder,
+textarea::placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: rgba(110, 110, 110, 0.74);
+}
+
+@media screen and (min-width: 1800px) {
+  .Inputs {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .Inputs {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .Inputs {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Inputs {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .Inputs {
+    width: 50%;
+  }
+}

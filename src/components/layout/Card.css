@@ -1,0 +1,60 @@
+.Card {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 21.25rem;
+  margin-left: 6.3125rem;
+  margin-top: 4.25rem;
+
+  transition: 0.3s;
+}
+
+.CardThumb {
+  height: 13.875rem;
+  width: 21.25rem;
+}
+
+.Card:hover {
+  transition: 0.25s;
+  transform: scale(110%);
+}
+
+.Description {
+  height: 12.5625rem;
+  width: 21.25rem;
+  border-radius: 0 0 4px 4px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.TituloCard {
+  padding-top: 1.5rem;
+  padding-left: 1.875rem;
+  padding-bottom: 1.5rem;
+}
+
+h1.TituloCard {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  color: #2a2a2a;
+}
+
+.TextoCard {
+  padding-left: 1.875rem;
+  padding-bottom: 1.875rem;
+  width: 80%;
+}
+
+p.TextoCard {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+
+  color: #555555;
+}
